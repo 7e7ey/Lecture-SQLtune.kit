@@ -217,7 +217,7 @@ EXPLAIN
   WHERE e.emp_id = g.emp_id
     AND e.emp_id BETWEEN 10001 AND 10100;
 ```
-- Prifiling 실습
+- Profiling 실습
 ```sql
 -- 1. 확인
 SHOW VARIABLES LIKE 'profiling'
