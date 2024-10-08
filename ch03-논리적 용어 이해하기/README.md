@@ -51,7 +51,7 @@ SELECT 학생.학번, 학생.이름, 지도교수.교수명
  RIGHT JOIN 지도교수
          ON 학생.학번 = 지도교수.학번     
 ```
--- Cross Join
+- Cross Join
 ```sql
 SELECT 학생.학번, 학생.이름, 
         지도교수.학번, 지도교수.교수명
@@ -62,7 +62,7 @@ SELECT 학생.학번, 학생.이름,
         지도교수.학번, 지도교수.교수명
   FROM 학생, 지도교수
 ```
--- Natural Join
+- Natural Join
 ```sql
 SELECT 학생.*, 지도교수.*
   FROM 학생
